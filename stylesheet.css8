@@ -1,0 +1,89 @@
+.name{
+    margin-bottom: 50px;
+}
+
+.startbuttom{
+    display: inline-block;
+    background: yellowgreen;
+    color: white;
+    text-decoration: none;
+    padding: 15px 40px;
+    border-radius:  4px;
+    box-shadow:  0px 7px rgba(80, 76, 76, 0.904);
+}
+
+.startbuttom:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.startbuttom:active{
+    box-shadow: none;
+    position: relative;
+    top: 7px;
+}
+.clear{
+    clear: right;
+}
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+    .top{
+        padding-top: 600px ;
+    }
+    .top h1{
+        font-size: 40px;
+        font-weight: 550;
+    }   
+    .lessoncontent{
+        width: 50%;
+    } 
+    .topinside{
+        padding-left: 10% ;
+    }    
+    .topinside a{
+        width: 240px;
+        margin-right: 30px;
+    }
+  
+.facebook{
+    margin-bottom: 10px;
+}
+
+
+    .lessoncontent p{
+        padding-bottom: 50px;
+    }
+}
+
+/* モバイル向けレイアウト */
+@media all and (max-width: 670px) {
+    .top{
+        padding-top: 600px ;
+    }
+
+  .top h1 {
+    font-size: 30px;
+    font-weight: 550;
+  }
+
+  .topinside{
+      padding-left: 10% ;
+  }
+
+    .topinside a{
+        width: 240px;
+        margin-right: 30px;
+    }
+  
+.facebook{
+    margin-bottom: 10px;
+}
+
+.lessoncontent{
+    width: 100%;
+}
+
+.lessoncontent p{
+    padding-bottom: 50px;
+}
+}
